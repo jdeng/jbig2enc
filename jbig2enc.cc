@@ -1,12 +1,9 @@
-
 #define VERSION "1.0"
 
 #include "jbig2enc/src/jbig2arith.cc"
 #include "jbig2enc/src/jbig2comparator.cc"
 #include "jbig2enc/src/jbig2sym.cc"
 #include "jbig2enc/src/jbig2enc.cc"
-
-typedef unsigned char uint8_t;
 
 #if defined(WIN32)
 #define DLLEXPORT __declspec(dllexport)
